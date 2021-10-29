@@ -1,0 +1,31 @@
+{
+  "name": "react-tailwind-parcel",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel ./src/index.html",
+    "build": "parcel build src/index.html",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4",
+    "tailwindcss": "^1.1.2"
+  },
+  "dependencies": {
+    "@types/react": "^17.0.20",
+    "blob": "^0.1.0",
+    "file-saver": "^2.0.5",
+    "fs-extra": "^10.0.0",
+    "jszip": "^3.7.1",
+    "react": "^17.0.2",
+    "react-dom": "^16.10.2",
+    "react-feather": "^2.0.9",
+    "react-markdown": "^7.0.1",
+    "style.css": "^1.0.0",
+    "tailwind": "^4.0.0"
+  }
+}

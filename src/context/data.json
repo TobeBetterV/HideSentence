@@ -1,0 +1,148 @@
+[
+  {
+    "id": "1001",
+    "time": {"post_time":"","review_time":[]},
+    "tag": ["weapon"],
+    "state": true,
+    "origin": "A foreign language is a weapon in the struggle of life.",
+    "tran": "外国语是人生斗争的一件武器。",
+    "underline" : {"外国语":"a foreign language","人生斗争":"struggle of life"}
+  },
+  {
+    "id": "1002",
+    "time": {"post_time":"","review_time":[]},
+    "tag": ["attribute"],
+    "state": false,
+    "origin": "They appeared to possess all the attributes of a ruling class.",
+    "tran": "他们似乎具有统治阶级的一切特征。",
+    "underline" : {"似乎":"appeared","具有":"possess","统治阶级":"ruling class"}
+  },
+  {
+    "id": "1003",
+    "time": {"post_time":"","review_time":[]},
+    "tag": ["accelerate"],
+    "state": false,
+    "origin": "Perhaps the fact that the car was tailgating him made him accelerate.",
+    "tran": "或许是那辆汽车跟的太紧，他才加速的。",
+    "underline" : {"或许":"perhaps the fact","那辆汽车":"that the car","跟的太紧":"was tailgating him"}
+  },
+  {
+    "id": "1004",
+    "time": {"post_time":"","review_time":[]},
+    "tag": ["accord"],
+    "state": false,
+    "origin": "Most people are in accord with their desire for peace.",
+    "tran": "在渴望和平这一点上，大多数人都是一致的。",
+    "underline" : {"渴望":"desire","和平":"peace","大多数人":"Most people","一致":"accord"}
+  },
+  {
+    "id": "1005",
+    "time": {"post_time":"","review_time":[]},
+    "tag": ["experience"],
+    "state": false,
+    "origin": "No field of study can advance significantly unless outsiders bring their knowledge and experience to that field of study.",
+    "tran": "除非有外来者带来其它领域的知识与经验，任何一个领域都不可能大幅度进步。",
+    "underline" : {"领域":"fields","大幅度进步":"advance significantly","外来者":"outsiders"}
+  },
+  {
+    "id": "1006",
+    "time": {"post_time":"","review_time":[]},
+    "tag": ["amount"],
+    "state": false,
+    "origin": "All his endeavor and persistence amount to nothing in the end.",
+    "tran": "最终他的努力和坚持都是徒劳无功的。",
+    "underline" : {"努力":"endeavor","坚持":"persistence","最终":"in the end"}
+  },
+  {
+    "id": "1007",
+    "time": {"post_time":"","review_time":[]},
+    "tag": ["destroy"],
+    "state": false,
+    "origin": "They destroy vast amounts of land very quickly.",
+    "tran": "它们很快就摧毁了大量的土地。",
+    "underline" : {"大量的":"vast amounts of","土地":"land","很快":"very quickly"}
+  },
+  {
+    "id": "1008",
+    "time": {"post_time":"","review_time":[]},
+    "tag": ["electrical"],
+    "state": false,
+    "origin": "Can people in modern times live without electrical appliances?",
+    "tran": "现代人没有电器能活吗？",
+    "underline" : {"大量的":"vast amounts of","土地":"land","很快":"very quickly"}
+  },
+  {
+    "id": "1010",
+    "time": {"post_time":"","review_time":[]},
+    "tag": ["destroy"],
+    "state": false,
+    "origin": "They destroy vast amounts of land very quickly.",
+    "tran": "它们很快就摧毁了大量的土地。",
+    "underline" : {"大量的":"vast amounts of","土地":"land","很快":"very quickly"}
+  },
+  {
+    "id": "1010",
+    "time": {"post_time":"","review_time":[]},
+    "tag": ["destroy"],
+    "state": false,
+    "origin": "They destroy vast amounts of land very quickly.",
+    "tran": "它们很快就摧毁了大量的土地。",
+    "underline" : {"大量的":"vast amounts of","土地":"land","很快":"very quickly"}
+  },
+  {
+    "id": 1011,
+    "time": { "post_time": "2021-10-06T15:23:55.674Z" },
+    "tag": ["staff "],
+    "state": false,
+    "origin": "The refugee centre is staffed mainly by volunteers.",
+    "tran": "难民中心主要由志愿人员提供服务。",
+    "underline": {
+      "抓住": "seize",
+      "擦亮眼睛": "their eyes open",
+      "时刻": "keep",
+      "迟早": "sooner or later",
+      "难民中心": "refugee centre",
+      "主要": "mainly",
+      "志愿": "volunteers"
+    }
+  },
+  {
+    "id": 1012,
+    "time": { "post_time": "2021-10-06T15:25:41.319Z" },
+    "tag": ["slide "],
+    "state": false,
+    "origin": "The euro continues to slide.",
+    "tran": "欧元继续下跌。",
+    "underline": {
+      "欧元": "euro",
+      "继续": "continues"
+    }
+  },
+  {
+    "id": 1013,
+    "time": { "post_time": "2021-10-06T16:50:19.673Z" },
+    "tag": ["failure "],
+    "state": false,
+    "origin": "Failure in one examination should not stop you from trying again.",
+    "tran": "一次考试不及格不应妨碍你再试一次。",
+    "underline": {
+      "考试": "examination",
+      "妨碍": "stop"
+    }
+  },
+  {
+    "id": 1014,
+    "time": { "post_time": "2021-10-06T17:09:32.759Z" },
+    "tag": ["humble "],
+    "state": false,
+    "origin": "As long as the most humble people keep their eyes open, sooner or later they can seize the opportunity.",
+    "tran": "最卑微的人，只要时刻擦亮眼睛，迟早能抓住机会。",
+    "underline": {
+      "抓住": "seize",
+      "擦亮眼睛": "their eyes open",
+      "时刻": "keep",
+      "迟早": "sooner or later",
+      "卑微": "123"
+    }
+  }
+]
