@@ -11,7 +11,7 @@
 ## 启动项目
 
 ```
-npm build	//安装
+npm build	//安装依赖
 
 npm start	//启动
 ```
