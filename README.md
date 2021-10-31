@@ -8,6 +8,8 @@
 
 就叫谜底句子吧。
 
+这里是一小部分[figma设计稿](https://www.figma.com/file/xTE0aGilPCEVx0FaHUmz6L/%E5%88%B7%E5%8F%A5)，边写边设计，没有全部都做设计稿。
+
 ## 启动项目
 
 ```
