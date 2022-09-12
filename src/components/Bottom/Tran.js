@@ -33,8 +33,8 @@ function Tran() {
       // console.log(underline);
       // //注意这里要用中括号
       // console.log(underline[word]);
-      //先将空格替换为&nbsp；
-      const temUnderWord = underline[word].replaceAll(" ","&nbsp;")
+      //先将空格替换为&nbsp,将'替换为\&apos;；
+      const temUnderWord = underline[word].replaceAll(" ", "&nbsp;").replaceAll("\'", "\\&apos;");
       getOneTran = getOneTran.replaceAll(
         word,
         `<a onClick=document.getElementById('tranTips').innerHTML='${temUnderWord}'>${word}</a>`

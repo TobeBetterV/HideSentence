@@ -13,7 +13,7 @@ function Page({ setShowTest }) {
       <Right></Right>
       </div>
       <Bottom></Bottom>
-      <InputPoint></InputPoint>
+      {/* <InputPoint></InputPoint> */}
     </div>
   );
 }

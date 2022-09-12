@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import Page from "./Page";
+import DownPoint from './DownPoint'
 import "./style.css";
 import ReactMarkdown from "react-markdown";
 import * as Icon from "react-feather";
@@ -18,6 +19,7 @@ function App() {
       <GlobalContextProvider>
         <RightContextProvider>
           <Page></Page>
+          <DownPoint></DownPoint>
         </RightContextProvider>
       </GlobalContextProvider>
     </div>

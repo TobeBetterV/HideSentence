@@ -10,8 +10,6 @@ function GlobalContextProvider(props) {
 
   //总卡片列表
   const [todoList, setTodoList] = useState(data);
-  // console.log("todoList-global-start");
-  // console.log(todoList);
 
   //新增卡片内容
   const [newTodoContent, setNewTodoContent] = useState({
@@ -25,7 +23,6 @@ function GlobalContextProvider(props) {
   });
 
   //输入错误时抖动
-
   const [swingAnimation, setSwingAnimation] = useState();
 
   //测试卡片列表
@@ -42,7 +39,12 @@ function GlobalContextProvider(props) {
   ]);
   //是否展示输入Point按钮
   const [isShowPointBtn, setIsShowPointBtn] = useState(false);
-
+  // 刷句功能中用户输入内容
+  const [userAnswer, setUserAnswer] = useState();
+  // 临时储存用户输入Tips
+  const [userInputTips, setUserInputTips] = useState("");
+  // 提示内容
+  const [testTips, setTestTips] = useState();
   //保存当前数据json
   const saveDataFile = () => {
     const FileSaver = require("file-saver");
@@ -84,12 +86,23 @@ function GlobalContextProvider(props) {
     result.splice(index, 1);
     setTodoList(result);
   };
+  //移除卡片
+  const removeTag = (i) => {
+    newTodoContent.tag.splice(i, 1);
+  };
+  const editTag = (v,i) => {
+    newTodoContent.tag.splice(i, 1);
+    document.getElementById("tagText").value = v
+
+  };
+  
   //选中卡片
   const checkTodo = (index) => {
     const result = [...todoList];
     result[index].state = !result[index].state;
     setTodoList(result);
   };
+
   //挑选测试卡片
   const selectTodo = () => {
     const result = [];
@@ -98,11 +111,13 @@ function GlobalContextProvider(props) {
         result.push(todoList[i]);
       }
     });
-    if(result.length){
+    if (result.length) {
       setTestList(result);
-    }else{
-      alert('没有选中任何单词。')
+    } else {
+      alert("没有选中任何句子。");
     }
+    //设置提示内容默认值为答案第一个单词
+    setTestTips(result[0].tag[0]);
   };
   return (
     <GlobalContext.Provider
@@ -122,6 +137,14 @@ function GlobalContextProvider(props) {
         isInput,
         isShowPointBtn,
         setIsShowPointBtn,
+        userAnswer,
+        setUserAnswer,
+        testTips,
+        setTestTips,
+        userInputTips,
+        setUserInputTips,
+        removeTag,
+        editTag
       }}
     >
       {props.children}

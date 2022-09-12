@@ -19,7 +19,6 @@ function Tran() {
 
   //将内容转化为HTML
 useEffect(() => {
-  console.log("获取")
   const tranTextValue = newTodoContent.tran;
   const preHtmlTran = '<div id="tranPart"><p>'
       .concat(tranTextValue)
@@ -37,8 +36,8 @@ useEffect(() => {
       // console.log(underline);
       // //注意这里要用中括号
       // console.log(underline[word]);
-      //先将空格替换为&nbsp；
-      const temUnderWord = underline[word].replaceAll(" ", "&nbsp;");
+      //先将空格替换为&nbsp,将'替换为\&apos;；
+      const temUnderWord = underline[word].replaceAll(" ", "&nbsp;").replaceAll("\'", "\\&apos;");
       getOneTran = getOneTran.replaceAll(
         word,
         `<a onClick=document.getElementById('preTranTips').innerHTML='${temUnderWord}'>${word}</a>`

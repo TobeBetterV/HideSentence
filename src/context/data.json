@@ -1,93 +1,107 @@
 [
   {
     "id": "1001",
-    "time": {"post_time":"","review_time":[]},
+    "time": { "post_time": "", "review_time": [] },
     "tag": ["weapon"],
-    "state": true,
+    "state": false,
     "origin": "A foreign language is a weapon in the struggle of life.",
     "tran": "外国语是人生斗争的一件武器。",
-    "underline" : {"外国语":"a foreign language","人生斗争":"struggle of life"}
+    "underline": {
+      "外国语": "a foreign language",
+      "人生斗争": "struggle of life"
+    }
   },
   {
     "id": "1002",
-    "time": {"post_time":"","review_time":[]},
+    "time": { "post_time": "", "review_time": [] },
     "tag": ["attribute"],
     "state": false,
     "origin": "They appeared to possess all the attributes of a ruling class.",
     "tran": "他们似乎具有统治阶级的一切特征。",
-    "underline" : {"似乎":"appeared","具有":"possess","统治阶级":"ruling class"}
+    "underline": {
+      "似乎": "appeared",
+      "具有": "possess",
+      "统治阶级": "ruling class"
+    }
   },
   {
     "id": "1003",
-    "time": {"post_time":"","review_time":[]},
+    "time": { "post_time": "", "review_time": [] },
     "tag": ["accelerate"],
     "state": false,
     "origin": "Perhaps the fact that the car was tailgating him made him accelerate.",
     "tran": "或许是那辆汽车跟的太紧，他才加速的。",
-    "underline" : {"或许":"perhaps the fact","那辆汽车":"that the car","跟的太紧":"was tailgating him"}
+    "underline": {
+      "或许": "perhaps the fact",
+      "那辆汽车": "that the car",
+      "跟的太紧": "was tailgating him"
+    }
   },
   {
     "id": "1004",
-    "time": {"post_time":"","review_time":[]},
+    "time": { "post_time": "", "review_time": [] },
     "tag": ["accord"],
     "state": false,
     "origin": "Most people are in accord with their desire for peace.",
     "tran": "在渴望和平这一点上，大多数人都是一致的。",
-    "underline" : {"渴望":"desire","和平":"peace","大多数人":"Most people","一致":"accord"}
+    "underline": {
+      "渴望": "desire",
+      "和平": "peace",
+      "大多数人": "Most people",
+      "一致": "accord"
+    }
   },
   {
     "id": "1005",
-    "time": {"post_time":"","review_time":[]},
+    "time": { "post_time": "", "review_time": [] },
     "tag": ["experience"],
     "state": false,
     "origin": "No field of study can advance significantly unless outsiders bring their knowledge and experience to that field of study.",
     "tran": "除非有外来者带来其它领域的知识与经验，任何一个领域都不可能大幅度进步。",
-    "underline" : {"领域":"fields","大幅度进步":"advance significantly","外来者":"outsiders"}
+    "underline": {
+      "领域": "fields",
+      "大幅度进步": "advance significantly",
+      "外来者": "outsiders"
+    }
   },
   {
     "id": "1006",
-    "time": {"post_time":"","review_time":[]},
+    "time": { "post_time": "", "review_time": [] },
     "tag": ["amount"],
     "state": false,
     "origin": "All his endeavor and persistence amount to nothing in the end.",
     "tran": "最终他的努力和坚持都是徒劳无功的。",
-    "underline" : {"努力":"endeavor","坚持":"persistence","最终":"in the end"}
+    "underline": {
+      "努力": "endeavor",
+      "坚持": "persistence",
+      "最终": "in the end"
+    }
   },
   {
     "id": "1007",
-    "time": {"post_time":"","review_time":[]},
+    "time": { "post_time": "", "review_time": [] },
     "tag": ["destroy"],
     "state": false,
     "origin": "They destroy vast amounts of land very quickly.",
     "tran": "它们很快就摧毁了大量的土地。",
-    "underline" : {"大量的":"vast amounts of","土地":"land","很快":"very quickly"}
+    "underline": {
+      "大量的": "vast amounts of",
+      "土地": "land",
+      "很快": "very quickly"
+    }
   },
   {
     "id": "1008",
-    "time": {"post_time":"","review_time":[]},
+    "time": { "post_time": "", "review_time": [] },
     "tag": ["electrical"],
     "state": false,
     "origin": "Can people in modern times live without electrical appliances?",
     "tran": "现代人没有电器能活吗？",
-    "underline" : {"大量的":"vast amounts of","土地":"land","很快":"very quickly"}
-  },
-  {
-    "id": "1010",
-    "time": {"post_time":"","review_time":[]},
-    "tag": ["destroy"],
-    "state": false,
-    "origin": "They destroy vast amounts of land very quickly.",
-    "tran": "它们很快就摧毁了大量的土地。",
-    "underline" : {"大量的":"vast amounts of","土地":"land","很快":"very quickly"}
-  },
-  {
-    "id": "1010",
-    "time": {"post_time":"","review_time":[]},
-    "tag": ["destroy"],
-    "state": false,
-    "origin": "They destroy vast amounts of land very quickly.",
-    "tran": "它们很快就摧毁了大量的土地。",
-    "underline" : {"大量的":"vast amounts of","土地":"land","很快":"very quickly"}
+    "underline": {
+      "现代人": "people in modern times",
+      "没有": "without",
+      "活": "live"
+    }
   },
   {
     "id": 1011,
@@ -113,10 +127,7 @@
     "state": false,
     "origin": "The euro continues to slide.",
     "tran": "欧元继续下跌。",
-    "underline": {
-      "欧元": "euro",
-      "继续": "continues"
-    }
+    "underline": { "欧元": "euro", "继续": "continues" }
   },
   {
     "id": 1013,
@@ -125,10 +136,7 @@
     "state": false,
     "origin": "Failure in one examination should not stop you from trying again.",
     "tran": "一次考试不及格不应妨碍你再试一次。",
-    "underline": {
-      "考试": "examination",
-      "妨碍": "stop"
-    }
+    "underline": { "考试": "examination", "妨碍": "stop" }
   },
   {
     "id": 1014,
@@ -141,8 +149,804 @@
       "抓住": "seize",
       "擦亮眼睛": "their eyes open",
       "时刻": "keep",
-      "迟早": "sooner or later",
-      "卑微": "123"
+      "迟早": "sooner or later"
     }
+  },
+  {
+    "id": 1015,
+    "time": { "post_time": "2021-11-02T12:38:11.527Z" },
+    "tag": ["convey"],
+    "state": false,
+    "origin": "Television is one of the means by which these feelings are created and conveyed.",
+    "tran": "电视是一种激发和传递这些感受的方式。",
+    "underline": {
+      "电视": "Television",
+      "是一种": "is one of",
+      "方式": "the means",
+      "激发": "created",
+      "传递": "conveyed",
+      "这些感受": "these feelings"
+    }
+  },
+  {
+    "id": 1016,
+    "time": { "post_time": "2021-11-02T12:52:28.569Z" },
+    "tag": ["peoples"],
+    "state": false,
+    "origin": "Perhaps never before has television served so much to connect different peoples and nations as in recent events in Europe.",
+    "tran": "在联系不同民族和国家方面，电视或许以前从来没有，像在最近欧洲事件中，起如此大的作用。",
+    "underline": {
+      "Pe": "peoples",
+      "国家": "nations",
+      "民族": "peoples",
+      "电视": "television",
+      "或许": "Perhaps",
+      "以前": "before",
+      "从来没有": "never",
+      "联系": "connect",
+      "不同": "different",
+      "欧洲事件": "events in Europe",
+      "最近": "recent",
+      "像": "as",
+      "如此大": "so much",
+      "作用": "served"
+    }
+  },
+  {
+    "id": 1018,
+    "time": { "post_time": "2021-11-05T12:29:01.501Z" },
+    "tag": ["individual"],
+    "state": false,
+    "origin": "I shall define intellectual as an individual who has elected as his primary duty and pleasure in life the activity of thinking in Socratic way about moral problems.",
+    "tran": "我要把知识分子定义为这样一个人，他选择了以苏格拉底的方式来思考道德问题的活动，作为他在生命中的首要责任和快乐。",
+    "underline": {
+      "知识分子": "intellectual",
+      "定义为": "define…as",
+      "苏格拉底": "Socratic",
+      "方式": "way",
+      "道德问题": "moral problems",
+      "责任": "duty",
+      "快乐": "pleasure",
+      "选择": "elected",
+      "选择了": "has elected",
+      "要": "shall"
+    }
+  },
+  {
+    "id": 1019,
+    "time": { "post_time": "2021-11-08T15:04:15.137Z" },
+    "tag": ["作文", "留学生建议信", "overseas"],
+    "state": false,
+    "origin": "On behalf of the Student Union of Beijing Foreign Studies University, I would like to extend our heartfelt welcome to all overseas students who will study in our university.",
+    "tran": "我谨代表北京外国语大学学生会，向所有来我校学习的留学生表示衷心的欢迎",
+    "underline": {
+      "谨代表": "on behalf of",
+      "外国语大学": "Foreign Studies University",
+      "学生会": "the Student Union",
+      "表示": "extend",
+      "衷心的": "heartfelt",
+      "欢迎": "welcome",
+      "所有": "all",
+      "向": "would like to",
+      "来我校学习": "study in our university"
+    }
+  },
+  {
+    "id": 1020,
+    "time": { "post_time": "2021-11-08T15:14:37.695Z" },
+    "tag": ["作文", "留学生建议信", "several"],
+    "state": false,
+    "origin": "It is my great pleasure to offer you several practical suggestions.",
+    "tran": "我很荣幸能给你提供一些实用的建议。",
+    "underline": {
+      "很荣幸": "It is…great pleasure",
+      "实用的": "practical",
+      "建议": "suggestion",
+      "提供": "offer"
+    }
+  },
+  {
+    "id": 1021,
+    "time": { "post_time": "2021-11-09T09:14:30.840Z" },
+    "tag": ["作文", "留学生建议信", "prestigious"],
+    "state": false,
+    "origin": "In the first place, life in this prestigious university is perhaps not as easy as you have expected.",
+    "tran": "首先，这所知名学府的生活也许并不像你们所设想的那么轻松。",
+    "underline": {
+      "首先": "In the first place",
+      "生活": "life",
+      "也许": "perhaps",
+      "那么轻松": "as easy",
+      "像你们所设想的": "as you have expected"
+    }
+  },
+  {
+    "id": 1022,
+    "time": { "post_time": "2021-11-09T09:20:51.332Z" },
+    "tag": ["作文", "留学生建议信", "abundant"],
+    "state": false,
+    "origin": "You may be tightly bound by daily classes, abundant homework and frequent exams.",
+    "tran": "你们可能会面临每日的课程、大量的作业和频繁的考试。",
+    "underline": {
+      "面临": "be tightly bound by",
+      "每日的": "daily",
+      "课程": "classes",
+      "大量的": "abundant",
+      "作业": "homework",
+      "频繁的": "frequent",
+      "考试": "exams"
+    }
+  },
+  {
+    "id": 1023,
+    "time": { "post_time": "2021-11-09T09:22:45.153Z" },
+    "tag": ["作文", "留学生建议信", "hectic"],
+    "state": false,
+    "origin": "Thus, be prepared for the hectic life here.",
+    "tran": "因此，做好准备迎接这里繁忙的生活吧。",
+    "underline": {
+      "因此": "Thus",
+      "做好准备": "be prepared",
+      "迎接": "for",
+      "繁忙的": "hectic"
+    }
+  },
+  {
+    "id": 1024,
+    "time": { "post_time": "2021-11-09T09:35:55.959Z" },
+    "tag": ["作文", "留学生建议信", "ample"],
+    "state": false,
+    "origin": "In spite of all those burdens, various extracurricular activities such as sports meets, speech contests and social gatherings will still provide ample opportunities to make friends.",
+    "tran": "尽管有以上负担，运动会、演讲比赛以及联谊会等各种各样的课外活动仍将提供大量的机会去结交朋友。",
+    "underline": {
+      "尽管": "in spite of",
+      "负担": "burdens",
+      "运动会": "sports meets",
+      "演讲比赛": "speech contests",
+      "联谊会": "social gatherings",
+      "各种各样的": "various",
+      "课外活动": "extracurricular activities",
+      "仍": "still",
+      "将": "will",
+      "提供": "provide",
+      "机会": "opportunities",
+      "结交朋友": "make friends"
+    }
+  },
+  {
+    "id": 1025,
+    "time": { "post_time": "2021-11-09T09:41:04.762Z" },
+    "tag": ["作文", "留学生建议信", "esteemed"],
+    "state": false,
+    "origin": "So, enjoy your life in this esteemed institute.",
+    "tran": "所以，在这所著名学校里的尽情享受你的生活吧。",
+    "underline": {
+      "所以": "so",
+      "著名": "esteemed",
+      "学校": "institute",
+      "这所": "this",
+      "尽情享受": "enjoy"
+    }
+  },
+  {
+    "id": 1026,
+    "time": { "post_time": "2021-11-09T09:49:45.987Z" },
+    "tag": ["作文", "留学生建议信", "pressure"],
+    "state": false,
+    "origin": "All in all, although there is a lot of pressure, the time you spend on our campus will be worthwhile and enhance your whole life.",
+    "tran": "总之，尽管这有很多压力，但你在我们的校园里度过的时光将意义非凡，并为你的整个人生增添光彩。",
+    "underline": {
+      "总之": "All in all",
+      "尽管": "although",
+      "压力": "pressure",
+      "增添光彩": "enhance",
+      "整个人生": "whole life",
+      "意义非凡": "be worthwhile",
+      "时光": "the time",
+      "校园": "campus"
+    }
+  },
+  {
+    "id": 1027,
+    "time": { "post_time": "2021-11-13T09:30:38.145Z" },
+    "tag": ["作文", "足球", "symbolically"],
+    "state": false,
+    "origin": "It is symbolically illustrated in the cartoon that a striker is preparing to shoot at the goal defended by a goalkeeper on a football field.",
+    "tran": "这幅漫画象征性地描述了足球场上的一名前锋，正准备将球射入守门员把守的球门。",
+    "underline": {
+      "漫画": "cartoon",
+      "象征性地": "symbolically",
+      "描述了": "illustrated",
+      "前锋": "striker",
+      "足球场上的": "on a football field",
+      "正准备": "is preparing to",
+      "球门": "goal",
+      "把守": "defended",
+      "守门员": "goalkeeper",
+      "射入": "shoot"
+    }
+  },
+  {
+    "id": 1028,
+    "time": { "post_time": "2021-11-15T09:22:12.165Z" },
+    "tag": ["语法", "让步状从"],
+    "state": false,
+    "origin": "Do it no matter what others say.",
+    "tran": "不管别人怎么说，尽管干。",
+    "underline": {
+      "尽管干": "Do it",
+      "不管": "no matter",
+      "别人": "others",
+      "怎么": "what",
+      "说": "say"
+    }
+  },
+  {
+    "id": 1029,
+    "time": { "post_time": "2021-11-15T09:29:17.613Z" },
+    "tag": ["语法", "让步状从"],
+    "state": false,
+    "origin": "No matter how busy he was, he studied English every day.",
+    "tran": "不管多忙，他每天都学英语。",
+    "underline": {
+      "不管": "no matter",
+      "busy he was": "how busy he was",
+      "每天": "every day"
+    }
+  },
+  {
+    "id": 1030,
+    "time": { "post_time": "2021-11-15T15:32:28.613Z" },
+    "tag": ["结果状从", "语法", "so…that"],
+    "state": false,
+    "origin": "He was so exited that he couldn't say a word.",
+    "tran": "他十分激动，以至于一句话都说不出来。",
+    "underline": {
+      "十分激动": "so exited",
+      "以至于": "that",
+      "一句话": "a word"
+    }
+  },
+  {
+    "id": 1031,
+    "time": { "post_time": "2021-11-15T15:39:51.423Z" },
+    "tag": ["语法", "结果状从", "such…that"],
+    "state": false,
+    "origin": "He give such important reasons that he was excused.",
+    "tran": "他给出了如此重要的理由，以至于他被谅解了。",
+    "underline": {
+      "如此": "such",
+      "重要的": "important",
+      "理由": "reasons",
+      "给出了": "give",
+      "以至于": "that",
+      "谅解了": "excused"
+    }
+  },
+  {
+    "id": 1032,
+    "time": { "post_time": "2021-11-15T09:41:24.777Z" },
+    "tag": ["语法", "让步状从", "no matter"],
+    "state": false,
+    "origin": "No matter who takes up the matter for me, I shall be very grateful.",
+    "tran": "不管谁为我处理这件事，我都会非常感激。",
+    "underline": {
+      "不管": "no matter",
+      "谁": "who",
+      "为我": "for me",
+      "处理这件事": "takes up the matter",
+      "感激": "grateful"
+    }
+  },
+  {
+    "id": 1033,
+    "time": { "post_time": "2021-11-15T13:42:41.226Z" },
+    "tag": ["足球", "作文"],
+    "state": false,
+    "origin": "In the goalkeeper's mind, he is so much smaller than he actually is that guarding the goal becomes an impossible mission.",
+    "tran": "在守门员心里，他比实际上的自己小很多，以至于守门成为一项不可能完成的任务。",
+    "underline": {
+      "守门员": "goalkeeper",
+      "心里": "mind",
+      "实际": "actually",
+      "比": "than",
+      "小很多": "so much smaller",
+      "实际上的自己": "he actually",
+      "以至于": "that",
+      "守门": "guarding the goal",
+      "成为": "becomes",
+      "不可能完成的": "impossible",
+      "任务": "mission"
+    }
+  },
+  {
+    "id": 1034,
+    "time": { "post_time": "2021-11-15T17:29:02.442Z" },
+    "tag": ["作文", "足球"],
+    "state": false,
+    "origin": "At the same time, the giant guard seems to fill up the whole goal in the attacking player's mind.",
+    "tran": "与此同时，在那名前锋的脑海里，这位巨人守门员似乎占据了整个球门。",
+    "underline": {
+      "与此同时": "At the same time",
+      "巨人": "giant",
+      "守门员": "guard",
+      "似乎": "seems",
+      "占据了": "fill up",
+      "整个": "the whole",
+      "球门": "goal",
+      "脑海": "mind",
+      "前锋的": "attacking player's"
+    }
+  },
+  {
+    "id": 1035,
+    "time": { "post_time": "2021-11-15T17:37:27.124Z" },
+    "tag": ["作文", "足球", "模版句"],
+    "state": false,
+    "origin": "I can think of no better illustration than the following one.",
+    "tran": "我想不出比下面的这个更好的例子了。",
+    "underline": { "例子": "illustration", "下面的这个": "the following one" }
+  },
+  {
+    "id": 1036,
+    "time": { "post_time": "2021-11-15T18:01:35.724Z" },
+    "tag": ["作文", "足球"],
+    "state": false,
+    "origin": "Helen Keller was deaf and blind, certainly nothing to give her self-confidence.",
+    "tran": "海伦凯勒聋且失明，的确没什么去让她自信。",
+    "underline": {
+      "海伦凯勒": "Helen Keller",
+      "聋且失明": "deaf and blind",
+      "的确": "certainly",
+      "没什么": "nothing",
+      "让": "give",
+      "自信": "self-confidence"
+    }
+  },
+  {
+    "id": 1037,
+    "time": { "post_time": "2021-11-17T07:52:26.916Z" },
+    "tag": ["作文", "足球"],
+    "state": false,
+    "origin": "Nevertheless, she went on to conquer her multiple handicaps to finally become a writer and lecturer, and an inspiration to all.",
+    "tran": "然而，她不断去克服多种障碍，最终成为一名作家和讲师，并鼓舞所有人。",
+    "underline": {
+      "然而": "Nevertheless",
+      "不断": "went on",
+      "去克服": "to conquer",
+      "多种": "multiple",
+      "最终": "finally",
+      "成为": "become",
+      "作家": "writer",
+      "讲师": "lecturer",
+      "鼓舞": "inspiration",
+      "障碍": "handicaps"
+    }
+  },
+  {
+    "id": 1038,
+    "time": { "post_time": "2021-11-17T08:01:22.375Z" },
+    "tag": ["作文", "足球"],
+    "state": false,
+    "origin": "This case effectively illustrates that no matter what tasks we are confronted with, we should never overestimate the difficulties or underestimate our abilities.",
+    "tran": "这个例子有效的说明了无论我们面临何种任务，我们绝不能高估困难或低估我们的能力。",
+    "underline": {
+      "例子": "case",
+      "有效的": "effectively",
+      "说明": "illustrates",
+      "无论": "no matter",
+      "我们面临": "we are confronted with",
+      "何种任务": "what tasks",
+      "绝不能": "never",
+      "estimate": "overestimate",
+      "高估": "overestimate",
+      "低估": "underestimate",
+      "能力": "abilities"
+    }
+  },
+  {
+    "id": 1039,
+    "time": { "post_time": "2021-11-18T13:24:00.923Z" },
+    "tag": [" can't help but"],
+    "state": false,
+    "origin": "I can't help but continue to encourage you to study hard.",
+    "tran": "我忍不住，只能继续鼓励你好好学习。",
+    "underline": {
+      "忍不住": "can't help",
+      "只能": "but",
+      " to": "continue",
+      "鼓励": "to encourage",
+      "继续": "continue",
+      "好好学习": "to study hard"
+    }
+  },
+  {
+    "id": 1040,
+    "time": { "post_time": "2021-11-18T13:27:15.676Z" },
+    "tag": ["can't help doing"],
+    "state": false,
+    "origin": "I can't help missing my family when I feel upset.",
+    "tran": "当我感觉不开心时，就忍不住想念我的家人。",
+    "underline": {
+      "忍不住": "can't help",
+      "想念": "missing",
+      "家人": "family",
+      "不开心": "upset"
+    }
+  },
+  {
+    "id": 1041,
+    "time": { "post_time": "2021-11-21T10:07:34.520Z" },
+    "tag": ["语法", "非谓", "动名词", "动名词作主语"],
+    "state": false,
+    "origin": "Helping others gives me great pleasure. ",
+    "tran": "帮助别人使我很愉快。",
+    "underline": {
+      "帮助别人": "Helping others",
+      "使我": "give me",
+      "很": "great",
+      "愉快": "pleasure"
+    }
+  },
+  {
+    "id": 1042,
+    "time": { "post_time": "2021-11-21T10:23:47.373Z" },
+    "tag": ["语法", "非谓", "动名词", "动名词作表语"],
+    "state": false,
+    "origin": "My favorite sport is skating.",
+    "tran": "我最喜爱的运动是滑冰。",
+    "underline": { "滑冰": "skating", "最喜爱的": "favorite" }
+  },
+  {
+    "id": 1043,
+    "time": { "post_time": "2021-11-21T10:26:46.880Z" },
+    "tag": ["语法", "不定式做表语", "非谓", "to do"],
+    "state": false,
+    "origin": "My goal is to win the championship.",
+    "tran": "我的目标是赢得冠军。",
+    "underline": { "目标": "goal", "冠军": "champion" }
+  },
+  {
+    "id": 1044,
+    "time": { "post_time": "2021-11-21T10:29:52.474Z" },
+    "tag": ["非谓", "不定式做表语", "语法"],
+    "state": false,
+    "origin": "My ambition is to win the championship.",
+    "tran": "我的追求是赢得冠军。",
+    "underline": { "追求": "ambition", "冠军": "championship" }
+  },
+  {
+    "id": 1045,
+    "time": { "post_time": "2021-11-21T10:41:34.643Z" },
+    "tag": ["语法", "非谓", "动名词", "动名词作宾语"],
+    "state": false,
+    "origin": "Some people do not enjoy smoking.",
+    "tran": "有些人不喜欢吸烟。",
+    "underline": { "吸烟": "smoking", "喜欢": "enjoy" }
+  },
+  {
+    "id": 1046,
+    "time": { "post_time": "2021-11-21T10:55:11.194Z" },
+    "tag": ["语法", "非谓", "动名词", "动名词作宾语"],
+    "state": false,
+    "origin": "He considered studying abroad.",
+    "tran": "他考虑出国学习。",
+    "underline": { "出国": "abroad", "学习": "studying", "考虑": "considered" }
+  },
+  {
+    "id": 1047,
+    "time": { "post_time": "2021-11-21T10:59:31.797Z" },
+    "tag": ["语法", "非谓", "动名词", "动名词作宾语"],
+    "state": false,
+    "origin": "I once imagined going on a date with him.",
+    "tran": "我曾想象和他去约会。",
+    "underline": {
+      "想象": "imagined",
+      "曾": "once",
+      "约会": "on a date",
+      "去": "going"
+    }
+  },
+  {
+    "id": 1048,
+    "time": { "post_time": "2021-11-21T11:03:03.786Z" },
+    "tag": ["语法", "非谓", "动名词", "动名词作宾语"],
+    "state": false,
+    "origin": "I haven't finished writing this letter.",
+    "tran": "我没写完这封信。",
+    "underline": { "信": "letter" }
+  },
+  {
+    "id": 1049,
+    "time": { "post_time": "2021-11-21T12:32:42.820Z" },
+    "tag": ["语法", "非谓", "动名词", "动名词作宾语"],
+    "state": false,
+    "origin": "Keep your focus and avoid the distractions.",
+    "tran": "保持你的注意力，避免分心。",
+    "underline": {
+      "不想": "avoid",
+      "见": "seeing",
+      "避免": "avoid",
+      "分心": "distractions",
+      "注意力": "focus"
+    }
+  },
+  {
+    "id": 1050,
+    "time": { "post_time": "2021-11-21T12:36:00.850Z" },
+    "tag": ["语法", "非谓", "动名词", "动名词作宾语"],
+    "state": false,
+    "origin": "Let's practice speaking English.",
+    "tran": "让我们练习说英语吧。",
+    "underline": { "练习": "practice", "说": "speaking", "英语": "English" }
+  },
+  {
+    "id": 1051,
+    "time": { "post_time": "2021-11-21T12:37:37.928Z" },
+    "tag": ["语法", "非谓", "动名词", "动名词作宾语"],
+    "state": false,
+    "origin": "Please pay attention to taking care of your baby.",
+    "tran": "请留意照顾你的孩子。",
+    "underline": {
+      "留意": "pay attention to",
+      "照顾": "taking care of",
+      "孩子": "baby"
+    }
+  },
+  {
+    "id": 1052,
+    "time": { "post_time": "2021-11-21T12:51:07.530Z" },
+    "tag": ["语法", "非谓", "动名词", "动名词作宾语"],
+    "state": false,
+    "origin": "I admitted parking a car in a no-waiting zone.",
+    "tran": "我承认把车停放在非临时停车区了。",
+    "underline": {
+      "承认": "admitted",
+      "停放": "parking",
+      "非临时停车区": "a no-waiting zone"
+    }
+  },
+  {
+    "id": 1053,
+    "time": { "post_time": "2021-11-21T13:31:31.649Z" },
+    "tag": ["语法", "非谓", "动名词", "动名词作宾语", "try to do"],
+    "state": false,
+    "origin": "We'll never give up trying to stop you.",
+    "tran": "我们永远不会放弃阻止你。",
+    "underline": {
+      "永远不会": "never",
+      "放弃": "give up",
+      "阻止": "trying to stop"
+    }
+  },
+  {
+    "id": 1054,
+    "time": { "post_time": "2021-11-21T15:38:47.302Z" },
+    "tag": ["语法", "非谓", "动名词", "动名词作宾语", "too…to"],
+    "state": false,
+    "origin": "Shelley was far too intelligent to risk attempting to deceive him.",
+    "tran": "雪莱太聪明了，以至于不敢冒险尝试欺骗他。",
+    "underline": {
+      "太": "far too",
+      "聪明": "intelligent",
+      "以至于": "to",
+      "以至于不敢": "to",
+      "冒险": "risk",
+      "尝试": "attempting to",
+      "欺骗": "deceive",
+      "雪莱": "Shelley"
+    }
+  },
+  {
+    "id": 1055,
+    "time": { "post_time": "2021-11-21T15:44:22.899Z" },
+    "tag": ["语法", "非谓", "动名词", "动名词作表语"],
+    "state": false,
+    "origin": "Would you mind minding my baby for a little while?",
+    "tran": "你介意去照看一会我的宝宝吗？",
+    "underline": {
+      "介意": "mind",
+      "照看": "minding",
+      "宝宝": "baby",
+      "一会": "for a little while"
+    }
+  },
+  {
+    "id": 1056,
+    "time": { "post_time": "2021-11-21T15:54:52.032Z" },
+    "tag": ["语法", "非谓", "动名词", "动名词作宾语"],
+    "state": false,
+    "origin": "I can't imagine living any other way.",
+    "tran": "我想象不出以什么其他的方式生活。",
+    "underline": {
+      "生活": "living",
+      "想象": "imagine",
+      "什么": "any",
+      "其他的": "other",
+      "方式": "way"
+    }
+  },
+  {
+    "id": 1057,
+    "time": { "post_time": "2021-11-21T15:58:19.937Z" },
+    "tag": ["语法", "非谓", "动名词", "动名词作宾语"],
+    "state": false,
+    "origin": "I don't fancy swimming in such weather.",
+    "tran": "我不想在这种天气游泳。",
+    "underline": {
+      "加": "fancy",
+      "游泳": "swimming",
+      "这种": "such",
+      "天气": "weather",
+      "想": "fancy"
+    }
+  },
+  {
+    "id": 1058,
+    "time": { "post_time": "2021-11-21T16:29:15.110Z" },
+    "tag": ["语法", "非谓", "动名词", "动名词作宾语"],
+    "state": false,
+    "origin": "I've put off telling you, because I didn't want to lose you.",
+    "tran": "我推迟告诉你，因为我不想失去你。",
+    "underline": {
+      "推迟": "put off",
+      "告诉": "telling",
+      "失去": "lose",
+      "想": "want",
+      "不": "don't"
+    }
+  },
+  {
+    "id": 1059,
+    "time": { "post_time": "2021-11-21T16:38:39.982Z" },
+    "tag": ["语法", "非谓", "动名词", "动名词作宾语"],
+    "state": false,
+    "origin": "I look forward to seeing you soon.",
+    "tran": "我期待很快见到你。",
+    "underline": { "期待": "look forward to", "很快": "soon", "见": "seeing" }
+  },
+  {
+    "id": 1060,
+    "time": { "post_time": "2021-11-21T16:42:05.140Z" },
+    "tag": ["语法", "非谓", "动名词作宾语", "动名词"],
+    "state": false,
+    "origin": "The tourists insist on keeping to their plan.",
+    "tran": "旅行者坚持按照他的计划行事。",
+    "underline": {
+      "旅行者": "tourists",
+      "坚持": "insist on",
+      "按照": "keeping",
+      "计划": "plan"
+    }
+  },
+  {
+    "id": 1061,
+    "time": { "post_time": "2021-11-21T16:47:59.349Z" },
+    "tag": ["语法", "非谓", "动名词", "动名词作宾语"],
+    "state": false,
+    "origin": "Please pay attention to speaking more slowly.",
+    "tran": "请注意说话慢点儿。",
+    "underline": {
+      "注意": "pay attention to",
+      "说话": "speaking",
+      "慢点儿": "more slowly"
+    }
+  },
+  {
+    "id": 1062,
+    "time": { "post_time": "2021-11-21T16:52:23.655Z" },
+    "tag": ["语法", "动名词", "非谓", "动名词作宾语"],
+    "state": false,
+    "origin": "She is fond of talking a walk.",
+    "tran": "他喜欢散步。",
+    "underline": { "喜欢": "be font of", "散步": "talking a walk" }
+  },
+  {
+    "id": 1063,
+    "time": { "post_time": "2021-11-21T16:56:29.925Z" },
+    "tag": ["语法", "非谓", "动名词", "动名词作介宾"],
+    "state": false,
+    "origin": "His illness prevented us from starting our business. ",
+    "tran": "他的病使得我们无法开展我们的事业。",
+    "underline": {
+      "病": "illness",
+      "使得我们无法": "prevented us from",
+      "开展": "starting",
+      "事业": "business"
+    }
+  },
+  {
+    "id": 1064,
+    "time": { "post_time": "2021-11-21T17:02:01.312Z" },
+    "tag": ["语法", "非谓", "动名词", "动名词做介宾", "worth"],
+    "state": false,
+    "origin": "The issue is worth paying attention to.",
+    "tran": "这个议题值得注意.",
+    "underline": {
+      "注意": "paying attention to",
+      "值得": "worth",
+      "议题": "issue"
+    }
+  },
+  {
+    "id": 1065,
+    "time": { "post_time": "2021-11-21T17:05:12.851Z" },
+    "tag": ["语法", "worthy"],
+    "state": false,
+    "origin": "They are worthy of reverence and respect.",
+    "tran": "它们值得尊敬和尊重。",
+    "underline": {
+      "值得": "are worthy of",
+      "尊敬": "reverence",
+      "尊重": "respect"
+    }
+  },
+  {
+    "id": 1066,
+    "time": { "post_time": "2021-11-21T17:06:39.845Z" },
+    "tag": ["worthwhile", "形容词"],
+    "state": false,
+    "origin": "That's a worthwhile book to read.",
+    "tran": "那是一本值得看的书。",
+    "underline": { "值得": "worthwhile", "看": "to read.", "书": "book" }
+  },
+  {
+    "id": 1067,
+    "time": { "post_time": "2021-11-21T17:09:51.084Z" },
+    "tag": ["that从句作主语"],
+    "state": false,
+    "origin": "That John refused to do his homework made his father angry.",
+    "tran": "约翰不肯做作业使得他父亲非常生气",
+    "underline": { "不肯": "refused", "生气": "angry" }
+  },
+  {
+    "id": 1068,
+    "time": { "post_time": "2021-11-21T17:11:30.613Z" },
+    "tag": ["动名词作主语"],
+    "state": false,
+    "origin": "John's refusing to do his homework made his fahter angry.",
+    "tran": "约翰不肯做功课使得他父亲非常生气。",
+    "underline": { "不肯": "refusing", "生气": "angry" }
+  },
+  {
+    "id": 1069,
+    "time": { "post_time": "2021-11-21T17:15:54.588Z" },
+    "tag": ["复合名词", "动名词"],
+    "state": false,
+    "origin": "Impure drinking water is a cause of disease.",
+    "tran": "不干净的饮用水是引发疾病的一个原因。",
+    "underline": {
+      "不干净的": "Impure",
+      "饮用水": "drinking water",
+      "原因": "cause",
+      "疾病": "disease"
+    }
+  },
+  {
+    "id": 1070,
+    "time": { "post_time": "2021-11-21T17:18:55.006Z" },
+    "tag": ["It is no use doing", "try to do"],
+    "state": false,
+    "origin": "It is no use trying to escape.",
+    "tran": "想逃走是没用的。",
+    "underline": { "是没用的": "It is no use", "逃走": "escape" }
+  },
+  {
+    "id": 1071,
+    "time": { "post_time": "2021-11-21T17:20:33.570Z" },
+    "tag": ["on doing"],
+    "state": false,
+    "origin": "On hearing it, he cried.",
+    "tran": "一听到那件事他就哭了。",
+    "underline": { "听到": "hearing", "那件事": "it", "哭了": "cried" }
+  },
+  {
+    "id": 1072,
+    "time": { "post_time": "2021-11-21T17:24:11.846Z" },
+    "tag": ["can't resist doing"],
+    "state": false,
+    "origin": "He couldn't resist crying when he saw her.",
+    "tran": "当他看见她时忍不住哭了。",
+    "underline": { "忍不住": "couldn't resist", "哭": "crying" }
   }
 ]

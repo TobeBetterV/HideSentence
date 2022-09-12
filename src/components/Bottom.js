@@ -8,36 +8,23 @@ import { GlobalContext } from "../context/GlobalContext";
 import { RightContext } from "../context/RightContext";
 
 function Bottom() {
-  const { swingAnimation } = useContext(GlobalContext);
-  const { bottomIsHidden, setBottomIsHidden } = useContext(RightContext);
-
-  // const [oneTest, setOneTest] = useState({
-  //   id: "100",
-  //   time: "",
-  //   tag: "weapon",
-  //   state: false,
-  //   origin: "A foreign language is a weapon in the struggle of life.",
-  //   tran: "[外国语](a.foreign.language)是[人生斗争](struggle.of.life)的一件武器。",
-  // });
+  const { testList, setTestList, swingAnimation,setUserAnswer,setTestTips} = useContext(GlobalContext);
+  const { bottomIsHidden, setBottomIsHidden,setIsChecked } = useContext(RightContext);
   const [oneTest, setOneTest] = useState("");
-
-  // const nextTest = () => {
-  //   const result = testList1.pop();
-  //   console.log("result");
-  //   console.log(result);
-  //   setOneTest(result);
-  //   console.log("oneTest");
-  //   console.log(oneTest);
-  //   // //设置最后一个测试题
-  //   // const result = testList.pop()
-  //   // console.log("result")
-  //   // console.log(result)
-  //   // setOneTest(result)
-  //   // console.log("oneTest")
-  //   // console.log(oneTest)
-  //   // console.log('testList')
-  //   // console.log(testList)
-  // };
+  const nextBtnClick = () => {
+    const result = [...testList];
+    result.shift();
+    //如果剩余列表不为空，执行setTestList，如果为空，不再清除删除元素。
+    if (result.length) {
+      setUserAnswer("")
+      setTestList(result);
+      setIsChecked(false)
+      //设置提示内容默认值为答案第一个单词
+      setTestTips(result[0].tag[0]);
+    } else {
+      alert("完成");
+    }
+  };
   return (
     <div
       className={`flex items-center justify-evenly ${
@@ -54,11 +41,13 @@ function Bottom() {
         <Tran></Tran>
         {/* 输入原文 */}
         <Origin></Origin>
-        <div
-          className="rounded-full bgGrassGreen hover:bg-green-700 cursor-pointer h-8 w-8 text-gray-100 flex justify-center items-center"
-          onClick={() => setBottomIsHidden(true)}
-        >
-          <Icon.ChevronsDown></Icon.ChevronsDown>
+        <div className="flex justify-center w-full">
+          <div
+            onClick={nextBtnClick}
+            className=" h-8 w-11 rounded-full bgGrassGreen flex items-center hover:bg-green-700 cursor-pointer justify-center text-gray-100 select-none"
+          >
+            <Icon.ChevronsRight size={25} className="text-gray-100" />
+          </div>
         </div>
       </div>
     </div>

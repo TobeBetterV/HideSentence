@@ -6,28 +6,31 @@ import Todo from "./Todo";
 import { RightContext } from "../context/RightContext";
 
 function Left({ setShowTest }) {
-  const { todoList,saveDataFile, setTestList,selectTodo} =
+  const { todoList,saveDataFile, setTestList,setUserAnswer,selectTodo,setDefaultTips} =
     useContext(GlobalContext);
-  const {setRightIsHidden,setBottomIsHidden} = useContext(RightContext)
+  const {setRightIsHidden,setBottomIsHidden,setIsChecked} = useContext(RightContext)
   //开始测试
   const startTest = () => {
     //展开bottom，滚动到底部
     setBottomIsHidden(false)
     //筛选Testlist
     selectTodo()
-    // console.log("clickbtn:testList");
-    // console.log(testList);
+    //清空输入框
+    setUserAnswer("")
+    //设置输入框状态
+    setIsChecked(false)
   };
 
   return (
     <div className="left bg-gray-300 shadow-2xl rounded p-2">
-      <div className="flex hMax400px flex-col items-center overflow-auto">
-        {todoList.map(({ tag, state }, i) => (
+      <div className="wordlist flex hMax400px flex-col items-center overflow-auto">
+        {todoList.map(({ tag,origin, state }, i) => (
           //index：每次刷新得到的序列,delHandler:用于传参数给子组件，子组件才可以操作removeTode。这种参数名一般为xxxHandler
           // key={i}：如果不加会报一个错，但似乎没啥影响
           <Todo
             key={i}
             tag={tag}
+            origin={origin}
             index={i}
             isCompleted={state}
           ></Todo>
