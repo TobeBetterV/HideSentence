@@ -25,6 +25,7 @@
 }
 .hMax400px {
   max-height: 400px;
+  height: 400px;
   scrollbar-color: dark;
 }
 .z-1 {

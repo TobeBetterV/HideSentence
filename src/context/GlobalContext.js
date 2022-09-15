@@ -1,5 +1,6 @@
-import React, { createContext, useState } from "react";
+import React, { createContext, useEffect, useState } from "react";
 import data from "./data.json";
+import { useLocalStorage } from "@mantine/hooks";
 import { saveAs } from "file-saver";
 import { renderToString } from "react-dom/server";
 
@@ -9,7 +10,10 @@ function GlobalContextProvider(props) {
   const [isInput, setIsInput] = useState("false");
 
   //总卡片列表
-  const [todoList, setTodoList] = useState(data);
+  const [todoList, setTodoList] = useLocalStorage({
+    key: "todoList",
+    defaultValue: data,
+  });
 
   //新增卡片内容
   const [newTodoContent, setNewTodoContent] = useState({
@@ -69,7 +73,13 @@ function GlobalContextProvider(props) {
     const newId = 1 + Number(todoList[todoList.length - 1].id);
     newTodoContent.id = newId;
     newTodoContent.time.post_time = dataJson;
-    setTodoList([...todoList, JSON.parse(JSON.stringify(newTodoContent))]);
+    console.log("aaaaa");
+    setTodoList(
+      [...todoList, JSON.parse(JSON.stringify(newTodoContent))],
+      () => {
+        console.log("newTodo", todoList);
+      }
+    );
     // {
     //   id: newId,
     //   time: dataJson,
@@ -90,12 +100,11 @@ function GlobalContextProvider(props) {
   const removeTag = (i) => {
     newTodoContent.tag.splice(i, 1);
   };
-  const editTag = (v,i) => {
+  const editTag = (v, i) => {
     newTodoContent.tag.splice(i, 1);
-    document.getElementById("tagText").value = v
-
+    document.getElementById("tagText").value = v;
   };
-  
+
   //选中卡片
   const checkTodo = (index) => {
     const result = [...todoList];
@@ -144,7 +153,7 @@ function GlobalContextProvider(props) {
         userInputTips,
         setUserInputTips,
         removeTag,
-        editTag
+        editTag,
       }}
     >
       {props.children}
